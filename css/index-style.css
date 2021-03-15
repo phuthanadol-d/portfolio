@@ -37,7 +37,7 @@ a
     height: 720px;
     background-color: #ededed;
     top: -72px;
-    background-image: url(img/webcover.png);
+    background-image: url(webcover.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
