@@ -81,6 +81,11 @@ html
   columns: 1;
   column-gap: 10px;
 }
+.masonryre
+{
+  columns: 1;
+  column-gap: 10px;
+}
 
 .masonry-item
 {
