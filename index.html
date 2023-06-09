@@ -25,7 +25,16 @@
                     <li><a href="#">home</a></li>
                     <li><a href="#about">about</a></li>
                     <li><a href="resume.html">resume</a></li>
-                    <li><a href="#portfolio">portfolio</a></li>
+                    <div class="dropdown">
+                        <a href="#portfolio">portfolio</a>
+                        <div class="dropdown-content">
+                            <li><a href="#illust">Illustration</a></li>
+                            <li><a href="#char">Character&nbspDesign</a></li>
+                            <li><a href="#graphic">Graphic&nbspDesign</a></li>
+                            <li><a href="#anima">Animation</a></li>
+                            <li><a href="#motion">Motion&nbspGraphic</a></li>
+                        </div>
+                    </div>
                     <li><a href="#contact">contact</a></li>
                 </ul>
                 <div class="menubar" onclick="openNav()">
@@ -58,7 +67,7 @@
         <section id="portfolio" class="port">
             <h2>portfolio</h2>
             <div class="portbox">
-                <h3>Illustration</h3>
+                <h3 id="illust">Illustration</h3>
                 <div class="masonry-wrapper">
                     <div class="masonry">
                         <div class="masonry-item">
@@ -209,7 +218,7 @@
                     </div>
                 </div>
 
-                <h3>Character Design</h3>
+                <h3 id="char">Character Design</h3>
                 <div class="masonry-wrapper">
                     <div class="masonrycd">
                         <div class="masonry-item">
@@ -314,9 +323,9 @@
                     </div>
                 </div>
 
-                <h3>Graphic Design</h3>
+                <h3 id="graphic">Graphic Design</h3>
                 <div class="masonry-wrapper">
-                    <div class="masonry">
+                    <div class="masonrypr">
                         <div class="masonry-item">
                             <a class="lightbox" href="img/art/cmmfm.jpg">
                                 <img src="img/art/cmmfm.jpg" class="masonry-content">
@@ -415,7 +424,7 @@
                     </div>
                 </div>
 
-                <h3>Animation</h3>
+                <h3 id="anima">Animation</h3>
                 <div class="iframe-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/Go0WH9VeLqk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -423,7 +432,7 @@
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/lew8Ng3RkkU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
 
-                <h3>Motion Graphic</h3>
+                <h3 id="motion">Motion Graphic</h3>
                 <div class="iframe-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/GLnwuBur0SU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
@@ -441,7 +450,7 @@
             <section class="box">
                 <h3>profile</h3>
                 <h4><i class="material-icons-round">account_circle</i>
-                Phuthanadol Dhiantravan // Phum</h4>
+                Phuthanadol Dhiantravan</h4>
                 <h4><i class="material-icons-round">cake</i>
                 6 September 2000</h4>
                 <h4><i class="material-icons-round">place</i>
@@ -499,14 +508,14 @@
                         <h4><i><img src="img/icon/ps.png" style="width: 24px; margin-left: 4px;"></i>
                             Adobe Photoshop</h4>
                     </div>
-                    <div class="tabboxi">
+                    <div id="contact" class="tabboxi">
                         <h4><i><img src="img/icon/pr.png" style="width: 24px; margin-left: 4px;"></i>
                         Adobe Premiere Pro</h4>
                     </div>
                 </div>
             </section>
             
-            <h2 id="contact">contact</h2>
+            <h2>contact</h2>
             <section class="box">
                 <h3></h3>
                 <div class="tabbox">
