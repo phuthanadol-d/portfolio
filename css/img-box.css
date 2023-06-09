@@ -37,6 +37,7 @@ code, pre, samp
 
 img, video
 {
+  pointer-events: none;
   max-width: 100%;
   vertical-align: middle;
 }
