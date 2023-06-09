@@ -86,6 +86,7 @@ a
     list-style: none;
     float: left;
 }
+
 .menu a
 {
     color: #F5F5F5;
@@ -98,6 +99,38 @@ a
 .menu a:hover
 {
     color: #16CBDF;
+}
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+  
+  .dropdown-content
+{
+    display: none;
+    position: absolute;
+    background-color:#0A0A0A;
+    font-weight: 700;
+    font-size: 14px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 45px;
+    left: -5px;
+    z-index: 1;
+}
+  
+.dropdown-content li
+{
+    text-align: left;
+    margin-bottom: 24px;
+}
+
+.dropdown:hover .dropdown-content
+{
+    display: block;
 }
 
 /* visual */

@@ -66,14 +66,14 @@ html
 
 .masonry-wrapper
 {
-  max-width: 1280px;
+  max-width: 3840px;
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 24px;
 }
 .masonry
 {
-  columns: 1;
+  columns: 2;
   column-gap: 10px;
 }
 .masonrycd
@@ -83,12 +83,7 @@ html
 }
 .masonrypr
 {
-  columns: 1;
-  column-gap: 10px;
-}
-.masonryre
-{
-  columns: 1;
+  columns: 2;
   column-gap: 10px;
 }
 
@@ -162,10 +157,26 @@ html
   }
   .masonrycd
   {
-    columns: 2;
+    columns: 3;
   }
   .masonrypr
   {
-    columns: 3;
+    columns: 5;
+  }
+}
+
+@media only screen and (min-width: 2560px)
+{
+  .masonry
+  {
+    columns: 6;
+  }
+  .masonrycd
+  {
+    columns: 4;
+  }
+  .masonrypr
+  {
+    columns: 6;
   }
 }
