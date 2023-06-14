@@ -35,7 +35,7 @@ a
     display: flex;
     position: absolute;
     width: 100%;
-    height: 720px;
+    height: 640px;
     top: -72px;
     background-image: url(webcover.png);
     background-size: cover;
@@ -139,7 +139,7 @@ a
     display: flex;
     position: relative;
     flex-direction: row;
-    top: 210px;
+    top: 170px;
     color: #1F1F1F;
     padding-left: 72px;
     align-items: center;
@@ -251,7 +251,7 @@ a
 {
     display: flex;
     justify-content: space-between;
-    padding-top: 350px;
+    padding-top: 270px;
     display: flex;
     margin: 0;
     background-color: #0A0A0A;
@@ -410,6 +410,68 @@ h4 a:hover
     display: flex;
     flex-direction: column;
 }
+
+/*footer*/
+.footer
+{
+    width: 100%;
+    background-color:#F5F5F5;
+    flex-wrap: nowrap;
+    color: #0A0A0A;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.footer_item
+{
+    align-items: center;
+    justify-content: center;
+    width: 360px;
+}
+
+.footer_item h2
+{
+    text-align: center;
+    margin: 24px;
+    display: flex;
+    font-size: 22px;
+    align-items: center;
+}
+
+.footer_item h4
+{
+    margin: 24px;
+    display: flex;
+}
+
+.footer_item i
+{
+    font-size: xx-large;
+    width: 120px;
+    color: #0A0A0A;
+    padding-right: 0;
+}
+
+.footer_item i:hover
+{
+    color: #16CBDF;
+}
+
+.iconweb img
+{
+    margin-right: 24px;
+    width: 28px;
+}
+
 /*responsive*/
 @media (max-width: 1900px) 
 {
@@ -420,21 +482,7 @@ h4 a:hover
 
 @media (max-width: 992px) 
 {
-    .card
-    {
-        top: 140px;
-        display: flex;
-        padding: 0;
-        flex-direction: column;
-        align-items: center;
-    }
-    .card h1
-    {
-        font-size: 3rem;
-        text-align: center;
-        padding: 0;
-        padding-top: 26px ;
-    }
+
     .main
     {
         padding-top: 0px;
@@ -446,12 +494,9 @@ h4 a:hover
     }
     .profile
     {
-        padding-top: 220px;
+        padding-top: 229px;
     }
-    .tabboxi
-    {
-        flex-direction: row;
-    }
+
     .tabboxi h4
     {
         width: 300px; 
@@ -463,12 +508,53 @@ h4 a:hover
     .box h4
     {
         padding-right: 0;
-    
     }
-    
+    .bg
+    {
+        height: 540px;
+    }
+    .card-img
+    {
+        width: 240px;
+        height: 240px;
+    }
+    .card h1
+    {
+        font-size: 2.5rem;
+    }
+
 } 
 @media (max-width: 768px) 
 {
+     .card
+    {
+        top: 60px;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card h1
+    {
+        font-size: 2rem;
+        text-align: center;
+        padding: 0;
+        padding-top: 26px ;
+    }
+    .card-img
+    {
+        margin-top: 72px;
+        width: 240px;
+        height: 240px;
+    }
+    .profile
+    {
+        padding-top: 104px;
+    }
+    .bg
+    {
+        height: 600px;
+    }
     .menu
     {
         display: none;
@@ -501,15 +587,37 @@ h4 a:hover
         margin-left: 0;
         margin-right: 0;
     }
-    .card h1
+
+    .embed-responsive
     {
-        font-size: 2.5rem;
+        margin-bottom: 30px;
     }
 
-    .embed-responsive {
-        margin-bottom: 30px;
-        }
+    .footer
+    {
+    flex-direction: column;
+    }
 
+    .footer_item h2
+    {
+        margin: 0;
+        align-items: center;
+        display: block;
+    }
+    
+    .footer_item h4
+    {
+        margin-top: 12px;
+    }
+
+    .footer_item i
+    {
+        margin-top: 12px;
+    }
+
+    .footer_item:nth-of-type(1) { order: 2; }
+    .footer_item:nth-of-type(2) { order: 1; }
+    .footer_item:nth-of-type(3) { order: 3; }
 } 
 
 object
@@ -534,45 +642,3 @@ object
     height: 100vh;
 }
 
-.footer
-{
-    width: 100%;
-    background-color:#F5F5F5;
-    flex-wrap: nowrap;
-    color: #0A0A0A;
-    text-align: center;
-    position: relative;
-    margin-left: 0px;
-    margin: 0%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: row;
-    -moz-user-select: none;
-    -khtml-user-select: none;
-    -webkit-user-select: none;
-}
-
-.footer_item h2
-{
-    margin: 24px;
-    display: flex;
-}
-
-.footer_item h4
-{
-    margin: 24px;
-    display: flex;
-}
-
-.footer_item i
-{
-    font-size: xx-large;
-    width: 120px;
-    color: #0A0A0A;
-}
-
-.footer_item i:hover
-{
-    color: #16CBDF;
-}
