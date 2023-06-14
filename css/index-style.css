@@ -533,3 +533,46 @@ object
     padding-top: 72px;
     height: 100vh;
 }
+
+.footer
+{
+    width: 100%;
+    background-color:#F5F5F5;
+    flex-wrap: nowrap;
+    color: #0A0A0A;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+.footer_item h2
+{
+    margin: 24px;
+    display: flex;
+}
+
+.footer_item h4
+{
+    margin: 24px;
+    display: flex;
+}
+
+.footer_item i
+{
+    font-size: xx-large;
+    width: 120px;
+    color: #0A0A0A;
+}
+
+.footer_item i:hover
+{
+    color: #16CBDF;
+}
