@@ -523,6 +523,16 @@ h4 a:hover
         font-size: 2.5rem;
     }
 
+    .footer_item
+    {
+        width: 200px;
+    }
+
+    .footer_item i
+    {
+        width: 100px;
+    }
+
 } 
 @media (max-width: 768px) 
 {
