@@ -1,6 +1,6 @@
 var LastscrollTop = 0;
 navbar = document.getElementById("navbar");
-/*
+
 window.addEventListener("scroll",function()
 {
     var scrollTop = window.pageXOffset || document.documentElement.scrollTop;
@@ -17,7 +17,7 @@ window.addEventListener("scroll",function()
         } 
     }
     LastscrollTop = scrollTop;
-})*/
+})
 
 navside = document.getElementById("navside")
 function openNav()
