@@ -83,7 +83,12 @@ html
 }
 .masonrypr
 {
-  columns: 2;
+  columns: 5;
+  column-gap: 10px;
+}
+.masonryin
+{
+  columns: 6;
   column-gap: 10px;
 }
 
@@ -125,13 +130,17 @@ html
 }
 @media only screen and (min-width: 768px)
 {  
-  .masonry 
+  .masonry
   {
     columns: 2;
   }
   .masonrypr
   {
     columns: 2;
+  }
+  .masonryin
+  {
+    columns: 4;
   }
 }
 @media only screen and (min-width: 1200px)
@@ -162,6 +171,10 @@ html
   .masonrypr
   {
     columns: 5;
+  }
+  .masonryin
+  {
+    columns: 6;
   }
 }
 
