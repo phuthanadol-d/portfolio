@@ -62,7 +62,7 @@ a
 {
     display: flex;
     width: 100vw;
-    height: 72px;
+    height: 56px;
     justify-content: space-between;
     color: #F5F5F5;
     background-color: #0A0A0A;
@@ -72,6 +72,7 @@ a
     display: flex;
     position: relative;
     margin: 24px;
+    margin-top: 16px;
     font-size: 22px;
     text-transform: uppercase;
     align-items: center;
@@ -117,7 +118,7 @@ a
     background-color:#0A0A0A;
     font-weight: 700;
     font-size: 14px;
-    padding-top: 35px;
+    padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
     top: 25px;
@@ -186,7 +187,7 @@ button h3:hover
     display: flex;
     position: relative;
     flex-direction: row;
-    top: 126px;
+    top: 118px;
     color: #1F1F1F;
     padding-left: 72px;
     align-items: center;
