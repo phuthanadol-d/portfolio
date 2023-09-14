@@ -459,6 +459,12 @@ h4 a:hover
     flex-direction: column;
 }
 
+.tabboxc
+{
+    display: flex;
+    flex-direction: column;
+}
+
 /*footer*/
 .footer
 {
@@ -622,23 +628,25 @@ h4 a:hover
     {
         display: block;
     }
-    .tabbox
-    {
-        flex-direction: row;
-    }
     .tabbox h4
     {
+        font-size: 14px;
         padding-left: 12px;
     }
+
     .tabboxi
     {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .profile h2
     {
         margin-left: 18px;
         margin-top: 36px;
+    }
+    .profile h4
+    {
+        font-size: 14px;
     }
     .port h2
     {
