@@ -177,7 +177,6 @@ html
     columns: 6;
   }
 }
-
 @media only screen and (min-width: 2560px)
 {
   .masonry
