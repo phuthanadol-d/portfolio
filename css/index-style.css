@@ -156,6 +156,11 @@ button h3:hover
     cursor: pointer;
 }
   
+.collapsible h3
+{
+    font-family: 'Archivo', sans-serif;
+}
+  
 .collapsible i:after
 {
     content: "keyboard_arrow_up";
@@ -384,7 +389,7 @@ i img
     justify-items: center;
     color: #F5F5F5;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 900;
     margin-top: 48px;
     margin-left: 48px;
     font-size: 20px;
