@@ -81,9 +81,14 @@ html
   columns: 1;
   column-gap: 10px;
 }
+.masonryam
+{
+  columns: 1;
+  column-gap: 10px;
+}
 .masonrypr
 {
-  columns: 5;
+  columns: 2;
   column-gap: 10px;
 }
 .masonryin
@@ -132,9 +137,13 @@ html
 {  
   .masonry
   {
-    columns: 2;
+    columns: 3;
   }
   .masonrypr
+  {
+    columns: 3;
+  }
+  .masonrycd
   {
     columns: 2;
   }
@@ -151,11 +160,15 @@ html
   }
   .masonrypr
   {
-    columns: 2;
+    columns: 4;
   }
   .masonrycd
   {
     columns: 2;
+  }
+  .masonryam
+  {
+    columns: 1;
   }
 }
 @media only screen and (min-width: 1900px)
@@ -167,6 +180,10 @@ html
   .masonrycd
   {
     columns: 3;
+  }
+  .masonryam
+  {
+    columns: 2;
   }
   .masonrypr
   {
