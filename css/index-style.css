@@ -247,7 +247,7 @@ button h3:hover
 {   
     position: fixed;
     color: #F5F5F5;
-    margin: 27px;
+    margin: 19px;
     margin-right: 0px;
     right: 0;
     display: none;
@@ -261,7 +261,8 @@ button h3:hover
 {
     position: absolute;
     color: #F5F5F5;
-    margin: 27px;
+    margin: 19px;
+    margin-right: 0px;
     justify-content: right;
     right: 0;
 }
