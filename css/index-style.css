@@ -233,13 +233,13 @@ button h3:hover
     position: fixed;
     opacity: 0;
     width: 240px;
-    height: 1000%;
+    height: 100%;
     background-color: #0A0A0A;
     z-index: 9999;
     -moz-user-select: none;
     -khtml-user-select: none;
     -webkit-user-select: none;
-    align-content: center;
+    align-content: top;
     right: 0;
     transition: visibility 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
